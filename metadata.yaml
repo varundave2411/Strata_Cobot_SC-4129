@@ -1,0 +1,86 @@
+rosbag2_bagfile_information:
+  version: 9
+  storage_identifier: mcap
+  duration:
+    nanoseconds: 884040000000
+  starting_time:
+    nanoseconds_since_epoch: 21794000000
+  message_count: 147300
+  topics_with_message_count:
+    - topic_metadata:
+        name: /tcp_pose_raw
+        type: geometry_msgs/msg/PoseStamped
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 41259
+    - topic_metadata:
+        name: /joint_states
+        type: sensor_msgs/msg/JointState
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 17449
+    - topic_metadata:
+        name: /arm_status
+        type: std_msgs/msg/Int32
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 41234
+    - topic_metadata:
+        name: /arm_status_detail
+        type: diagnostic_msgs/msg/DiagnosticArray
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 1474
+    - topic_metadata:
+        name: /_arm_detail
+        type: std_msgs/msg/String
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 1474
+    - topic_metadata:
+        name: /_magnet_detail
+        type: std_msgs/msg/String
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 1531
+    - topic_metadata:
+        name: /clock
+        type: rosgraph_msgs/msg/Clock
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 42877
+    - topic_metadata:
+        name: /_eval_meta
+        type: std_msgs/msg/String
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 2
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - run_0.mcap
+  files:
+    - path: run_0.mcap
+      starting_time:
+        nanoseconds_since_epoch: 21794000000
+      duration:
+        nanoseconds: 884040000000
+      message_count: 294600
+  custom_data: ~
+  ros_distro: jazzy
